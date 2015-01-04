@@ -13,7 +13,9 @@
     </head>
     <body>
         <form action="check" method="post">
-            user name: <input type="text"/>
+            user name: <input type="text" name="usr" value="${param.usr}"/>
+            <font color="red">${err}</font>
+            <font color="green">${info}</font>
         </form>
     </body>
 </html>
