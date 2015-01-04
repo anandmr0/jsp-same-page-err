@@ -12,6 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="check" method="post">
+            user name: <input type="text"/>
+        </form>
     </body>
 </html>
